@@ -14,7 +14,7 @@ This page is used to plan daily tasks within a conventional work day to assist u
 
 ## Deployment
 
-
+https://raheimdevins.github.io/Raheims-daily-planner/
 
 
 ## Credits
