@@ -12,7 +12,6 @@ var svBtn = $('.saveBtn')
 svBtn.on('click', function (e) {
   var userInfo = $(this).siblings('textarea').val()
   var time = $(this).parent().attr('id')
-  console.log(userInfo)
   localStorage.setItem(time, userInfo)
 });
 
@@ -20,7 +19,6 @@ svBtn.on('click', function (e) {
 $('.time-block').each(function () {
   var time = $(this).attr('id').split('-')[1]
   var currentTime = today.format('HH')
-  console.log(currentTime)
   if (time < currentTime) {
     $(this).addClass('past')
   }
